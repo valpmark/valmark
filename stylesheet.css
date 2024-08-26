@@ -1,0 +1,71 @@
+/*high resolution, 961px and above
+@media only screen and (min-width: 961px) {*/
+
+body {background: white; font-family: Verdana; color: rgb(102,102,102); }
+
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Love Ya Like A Sister Regular'), local('LoveYaLikeASister-Regular'), url(http://fonts.gstatic.com/s/loveyalikeasister/v7/LzkxWS-af0Br2Sk_YgSJY9N6oT7VVZB_kATuDWj1CMI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+#master {width:1024px; margin: 0 auto; border: 2px solid rgb(248,245,238);  background: rgb(248,245,238);}
+
+a{text-decoration:none;}
+
+header {position: relative; width: 100%; background: rgb(248,245,238);}
+	.logo {max-width:60%;}
+	.phone {position: absolute; right: 0px; top: 0px; height: 25px; font-family: 'Love Ya Like A Sister'; font-size: 24px; }
+	.phoneimg {margin: 0 0 -3px 0; height: 24px;}
+	.social {position: absolute; right: 0px; bottom: 0px; height: 35px;}
+	.socialimg {margin: 0 0 0 0; height: 35px; width: 35px;}
+	.title1 {position: absolute; right: 0px; top: 17px; font-size: 11px; color: rgb(50, 50, 50); font-style: italic;}
+	.title2 {position: absolute; right: 0px; top: 30px; font-size: 11px; color: rgb(140, 140, 140); font-style: italic;}
+	.title3 {position: absolute; right: 0px; top: 42px; font-size: 11px; color: rgb(180, 180, 180); font-style: italic;}
+/*.social {float: right; max-width:8%;} */
+
+nav {width: 100%; overflow: auto;  background: rgb(234,220,195); padding: 2px 0px 10px 0px; margin-bottom: 0px; text-align: center;}
+	nav ul {padding-left: 0;}
+	nav li { display: inline;}
+	nav li a {color: rgb(81, 98, 111); text-decoration: none; font-weight: bold; font-family: Courier; font-size: 18px; margin-right: 5px;margin-left: 5px;}
+
+
+.slideshow{width: 100%; height: 400px; margin: 0 0 40px 0; border: 0px solid rgb(234,220,195); background: rgb(227, 224, 210); overflow: hidden; position: relative;}
+	#image_slider {width: 100%; height: 400px; position: absolute;}
+	#left_holder{height: 400px; width: 100px; position: absolute; left: 0px; top: 0px;}
+	#right_holder{height: 400px; width: 100px; position: absolute; right: 0px; top: 0px;}
+	.left{height: 50px;width: 50px; position: absolute; top: 40%; left: 1px;}
+	.right{height: 50px;width: 50px; position: absolute; top: 40%; right: 1px;}
+
+.contentsection{width: 100%; overflow:hidden; margin: 20px 0 20px 0;}
+	.fleftsection{width: 49%; overflow: hidden; float: left; margin-right: 1%;}
+	.frightsection{width: 49%; overflow: hidden; float: right; margin-left: 1%;}
+		.sectiontext {width: 100%; padding: 0px 2px 0px 2px; font-size: 95%;font-weight: 100; background: white; margin: 0 0 20px 0;}
+			.contactUs {font-family: 'Love Ya Like A Sister'; font-size: 20px;}
+		.contsecthead {width: 100%; height:30px; overflow:hidden; border-bottom: 1px solid rgb(81, 98, 111);  margin: 0 0 20px 0;}
+			.contsecthead h2 {width: 100%; color: rgb(81, 98, 111); text-decoration: none; font-size: 16px; font-family: Tahoma; font-weight: 100;}
+			.contsectimg {float: right;max-height: 30px;}
+		.fleftcolumn{width: 49%; overflow: hidden; float: left;margin-right: 1%;}
+		.frightcolumn{width: 49%; overflow: hidden; float: right;margin-left: 1%;}
+		.sectionmap {width: 100%; overflow: hidden; padding: 30px 1% 5px 1%; background: white;border-right: 1px solid rgb(81, 98, 111);  }
+		.sectionmap iframe {width: 98%; height: 450px; overflow: hidden; border:none; }
+
+.contentbox {width: 100%; background: white; margin-bottom: 10px;}
+	.contboxheader {width: 100%; height: 30px;}
+	.contboximg {width: 98%; position: relative; z-index:1; overflow: hidden; margin: 0 1% 0 1%; padding-bottom: 2px;}
+	.contentbox h3 {margin: 1% 1% 1% 1%; font-size: 95%;font-weight: 100; font-style: bold; font-family: 'Love Ya Like A Sister'; color: rgb(30, 30, 30); }
+		.contentbox h3  a {margin: 1% 1% 1% 1%; font-size: 75%;font-weight: 100; font-style: bold; font-family: 'Love Ya Like A Sister'; color: rgb(0, 155, 255); }
+	.contentbox p {margin: 1% 1% 1% 1%; font-size: 80%;font-weight: 100; font-style: italic;  color: rgb(130, 130, 130);}
+
+article{width: 100%; margin-left: 20px;}
+	.news{margin-bottom: 20px;  margin-right: 20px;}
+	.news h2{font-family: Times; margin-bottom: -20px; color: rgb(57, 74, 89);}
+	.news p{font-size: 90%; line-height: 150%;}
+
+
+footer {width: 100%; overflow: auto; background: rgb(234,220,195); padding: 2px 0px 10px 0px; margin-bottom: 0px; text-align: center;}
+	footer ul {padding-left: 0;}
+	footer li { display: inline;}
+	footer li a {color: rgb(81, 98, 111); text-decoration: none; font-weight: bold; font-family: Courier; font-size: 18px; margin-right: 5px;margin-left: 5px;}
